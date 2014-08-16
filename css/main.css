@@ -3,13 +3,17 @@ html, body {
 	width: 100%;
 	padding: 0;
 	margin: 0;
+	background: url("../img/background.jpg") no-repeat;
+	background-size: cover;
+	background-position: 0 -100px;
 }
 
 .logo {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	width: 300px;
-	margin-left: -150px;
-	margin-top: -40px;
+	width: 193px;
+	height: 51px;
+	margin-left: -97px;
+	margin-top: -126px;
 }
