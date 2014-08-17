@@ -25,19 +25,31 @@ body {
 	animation-duration: 2s;
 }
 
+.blog-link,
 .bg-credits {
 	position: absolute;
 	bottom: 20px;
-	right: 20px;
 	font-size: 12px;
 	color: #eaeaea;
+	-webkit-animation-delay: 1.5s;
+	animation-delay: 1.5s;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
 }
 
-.bg-credits > a {
+.blog-link {
+	left: 20px;
+}
+
+.bg-credits {
+	right: 20px;
+}
+
+span > a {
 	color: #d8d8d8;
 	text-decoration: none;
 }
 
-.bg-credits > a:hover {
+span > a:hover {
 	color: #888;
 }
